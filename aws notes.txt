@@ -6,5 +6,16 @@ Policies Applied:
 - ReadOnlyAccess
 - AmazonS3ReadOnlyAccess
 
+IAM Policy
+     │
+     ▼
+ IAM Group
+     │
+     ▼
+ IAM User
+
+IAM Role ──► AWS Service (EC2/S3)
+
+
 Result:
 Successfully managed access using IAM.
