@@ -1,0 +1,10 @@
+Created IAM User: TestUser
+Created IAM Group: Developers
+Created IAM Role: EC2ReadOnlyRole
+
+Policies Applied:
+- ReadOnlyAccess
+- AmazonS3ReadOnlyAccess
+
+Result:
+Successfully managed access using IAM.
